@@ -1,0 +1,125 @@
+1. Environment Setup:
+  - Downloading Requirements
+  - Installing Requirements
+  - Configurations (zero configurations):
+    - Transpiring
+    - Bundling
+
+  - npm vs npx:
+    - npm:
+      - Download and install a package
+        npm install [package-name]
+      - now you can use that installed packed
+        npm entry-point command
+
+    - npx:
+      - Use an online version of the package
+        npx package-name command
+
+2. Bootstrapping a react app:
+  - create-react-app
+
+3. The react Syntax:
+  - jsx (JavaScript XML):
+
+    jsx = (JS+HTML+XML):
+
+    in HTML:
+      - we only use pre-defined HTML elements 
+    in XML:
+      - We can define and use elements
+
+  - tsx:
+    tsx = (TS+HTML+XML):
+    but:
+      ts = (JS+TYPES):
+    hence:
+      tsx = ((JS+TYPES)+HTML+XML):
+
+4. React Components:
+  - class based Components
+  - functional components
+  - stateless components
+  - stateful components
+
+5. Variables:
+  - local variables
+  - Global Variables
+
+6. Props and Child Components:
+  - Defining prop variables
+  - passing prop values to a component
+  - Child Components
+
+7. Conditional Rendering in react:
+  - conditional operator (?)
+
+8. Looping or List Rendering in react:
+  - Iterating Arrays
+  - Filtering elements from Arrays
+
+9. Hooks in react:
+  - useState()
+  - UseEffect()
+  - x...
+
+10. Form Handling and Validation:
+  - Pick data from the form
+  - Send data to the form
+  - Two way data binding
+  - Preventing default behav....
+  - Handling errors
+
+11. State Management:
+  - Simple state management using the useState hook.
+  - Advanced state management:
+    - using context (recommended)
+    - using REDUX (highly recommended)
+
+12. Routing:
+  - 
+  - React router: https://reactrouter.com/
+
+13. Ecosystem:
+  - Material-ui (mui.com): UI development
+  - React Suite:
+  - Redux: for state management
+  - React Tables: https://blog.bitsrc.io/top-5-react-table-libraries-170505f75da7
+  - Charts: (findout...)
+  - Spline: for creating 3D elements
+
+14. Reference Material:
+  - React Official Website: https://reactjs.org/
+  - React Router Official Website: https://reactrouter.com/
+  - Material-UI Official Website: https://mui.com/
+  - React Suite Official Website: https://rsuitejs.com/
+  - Redux Official Website: https://redux.js.org/
+  - W3Schools: https://www.w3schools.com/react/react_router.asp
+
+  # Tables
+  - React Tables: https://blog.bitsrc.io/top-5-react-table-libraries-170505f75da7
+    - Material-React-Table: https://www.material-react-table.com/
+    - Material-Table: https://material-table.com/#/
+    - React-Component-Table: 
+      - https://github.com/react-component/table
+      - https://table-react-component.vercel.app/
+    - Rsuite-table:
+      - https://github.com/rsuite/rsuite-table
+      - https://rsuitejs.com/en/components/table/
+    - React-Table:
+    - Material-UI-datatables:
+      - https://github.com/gregnb/mui-datatables
+
+
+
+
+
+
+
+
+
+
+
+
+
+
