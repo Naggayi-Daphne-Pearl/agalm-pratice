@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { FaWallet, FaCartArrowDown,FaSearch, FaBars } from "react-icons/fa";
+import { FaWallet, FaCartArrowDown,FaSearch, FaBars,FaUserCircle,FaArrowDown, FaChevronDown, FaTimes } from "react-icons/fa";
 
 
 
@@ -9,19 +9,27 @@ const Navbar = () => {
     <nav> 
         <div className='nav-list'>
             <ul>
-              <FaBars/>
-                <li className='logo'><h6>agalm</h6></li>
+                <li className='logo'><h4>agalm</h4></li>
                 <li><a href="#">help</a></li>
-                <li><input type="text" placeholder='search for products and services ' className='search'/></li>
+                <li><span className='search'><input type="text" placeholder='search for products and services ' /></span></li>
                 <li><a href="#">sell</a></li>
-                <li><a href="#">currency</a></li>
-                <li><a href="#">account</a></li>
-                <li><a href="#"><FaWallet/></a></li>
-                <li><a href="#">cart<FaCartArrowDown/></a></li>
-
+                <li><a href="#">currency<FaChevronDown listItem/></a></li>
+                <li><a href="#"><FaUserCircle  fixedWidth />account<FaChevronDown listItem/></a></li>
+                <li><a href="#"><FaWallet listItem/><FaChevronDown listItem/></a></li>
+                <li><a href="#"><FaCartArrowDown listItem/></a></li>
             </ul>      
         </div>
     </nav>
+    <section>
+      <div>
+        <ul>
+          <li><input type="text" placeholder='search for products and services'/></li>
+          <li><a href="#">Cart<FaCartArrowDown listItem/></a></li>    
+        </ul>
+       
+     
+      </div>
+    </section>
     </>
   )
 }
